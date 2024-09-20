@@ -18,10 +18,10 @@ def main(page: ft.Page):
     page.horizontal_alignment = ft.CrossAxisAlignment.STRETCH
     # Title
     page.title = "LLM Chat"
-    page.window_min_width = 450
-    page.window_width = 550
-    page.window_min_height = 500
-    page.window_height = 600
+    page.window.min_width = 450
+    page.window.width = 550
+    page.window.min_height = 500
+    page.window.height = 600
     # App Bar
     page.appbar = ft.CupertinoAppBar(
         leading=ft.Icon(ft.icons.PALETTE),
